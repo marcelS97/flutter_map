@@ -100,7 +100,7 @@ class TileLayer extends StatefulWidget {
   final Color backgroundColor;
 
   /// Opacity of the rendered tile
-  final double opacity;
+  double opacity;
 
   /// Provider with which to load map tiles
   ///
