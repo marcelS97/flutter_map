@@ -44,7 +44,7 @@ class SimpleAttributionWidget extends StatelessWidget {
               child: Row(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  const Text('flutter_map | © '),
+                  const Text('© '),
                   MouseRegion(
                     cursor: onTap == null
                         ? MouseCursor.defer
